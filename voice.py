@@ -88,3 +88,5 @@ class VoiceButtons(discord.ui.View):
 
 async def setup(bot):
     await bot.add_cog(TempVoice(bot))
+import os
+bot.run(os.getenv('TOKEN_2'))
